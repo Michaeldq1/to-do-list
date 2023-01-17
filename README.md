@@ -1,2 +1,2 @@
 # to-do-list
-A basic to do list.
+This is a to-do list application that allows the user to add items to a list, search for items in the list, and filter the items based on whether they are completed or not. It includes an "Item" class, which has a text property and a property to track if it is completed, and a "ToDoList" class, which renders the list on the page, creates an input form for adding items, and has buttons for searching and filtering the items. The list is also being saved in the browser's local storage so that the items persist even if the user closes the browser.

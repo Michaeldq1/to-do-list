@@ -43,15 +43,13 @@ class ToDoList {
           { text: 'Add', onClick: () => this.addItemsToList(inputField.value) },
           { text: 'Search', onClick: () => this.search() }
         ];
-      
         buttons.forEach(({ text, onClick }) => {
-          const button = document.createElement('button');
-          button.className = 'input-buttons';
-          button.innerText = text;
-          button.addEventListener('click', onClick);
-          inputForm.appendChild(button);
+        const button = document.createElement('button');
+        button.className = 'input-buttons';
+        button.innerText = text;
+        button.addEventListener('click', onClick);
+        inputForm.appendChild(button);
         });
-      
     }
 
     search() {
